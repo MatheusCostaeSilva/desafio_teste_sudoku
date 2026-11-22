@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sudoku binário 6 × 6</title>
+</head>
+<body>
+  <!--
+    Esqueleto da tela: só os elementos FIXOS do contrato (PLANEJAMENTO.md, seção 3),
+    vazios e sem atributos de estado. As casas (casa-L-C) são criadas pelo jogo.
+  -->
+  <header>
+    <span data-testid="relogio"></span>
+    <span data-testid="dicas-restantes"></span>
+  </header>
+  <main>
+    <div data-testid="grade"></div>
+  </main>
+  <nav>
+    <button data-testid="btn-apagar"></button>
+    <button data-testid="btn-dica"></button>
+    <button data-testid="btn-outro"></button>
+  </nav>
+  <footer>
+    <p data-testid="status"></p>
+  </footer>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
